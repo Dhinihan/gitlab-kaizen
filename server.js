@@ -9,7 +9,7 @@ const HOST = '0.0.0.0'
 // App
 const app = express()
 app.get('/ping', (req, res) => {
-  res.send({ack: new Date().getTime()})
+  res.send({ ack: new Date().getTime() })
 })
 
 app.listen(PORT, HOST)
