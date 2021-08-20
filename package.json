@@ -1,0 +1,21 @@
+{
+  "name": "gitlab_kaizen",
+  "version": "0.1.0",
+  "description": "An api that generate useful productivity data from gitlab",
+  "author": "Vinícius Nascimento Silva <vinicius.nas.silva@gmail.com>",
+  "repository": {
+    "url": "https://github.com/Dhinihan/gitlab-kaizen"
+  },
+  "license": "Apache-2.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start_dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
